@@ -17,7 +17,7 @@ Ce projet couvre un large éventail de compétences, notamment :
 ## 3. Expression des Besoins
 
 ### Entreprise
-L'Espace Shambaya met à disposition des professionnels de la santé et des thérapeutes des espaces de travail adaptés à leurs besoins.
+L'Entreprise xxxxxxxxx met à disposition des professionnels de la santé et des thérapeutes des espaces de travail adaptés à leurs besoins.
 
 ### Cahier des Charges
 - Développement d'une plateforme de réservation.
