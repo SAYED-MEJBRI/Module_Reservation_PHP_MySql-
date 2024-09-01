@@ -1,0 +1,77 @@
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  /* Les créneaux auront une largeur minimale de 150px et se plieront en fonction de l'espace disponible */
+  grid-gap: 10px;
+  /* Espace entre les boîtes */
+}
+
+.calendar-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: aquamarine;
+ 
+}
+
+.time {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.status {
+  margin-top: 10px;
+}
+
+
+
+.calendar-box {
+  border: 1px solid #ccc;
+  padding: 2px;
+  text-align: center !important;
+  min-width: 90px;
+}
+
+.time {
+  font-weight: bold;
+}
+
+.status {
+  margin-top: 10px;
+
+}
+
+.status.unavailable {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.status.reserved {
+  color: #fff;
+  background-color: #ff0000;
+}
+
+.reservation-form {
+  margin-top: 20px;
+}
+.selected {
+  background-color: lightblue;
+  border: 1px solid blue;
+}
+
+.room-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.room-name {
+  margin-bottom: 10px;
+}
+
+.calendar-section {
+  margin-top: 10px;
+}
+
+.no-calendar {
+  color: red;
+}
